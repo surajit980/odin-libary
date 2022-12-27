@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #010409 !important;
+}
+.modal-content{
+    color: white !important;
+    background-color:#0d1117 !important;
+}
+.inp-container{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+.inp-container input{
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+.save-btn{
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #21262d;
+    color: white;
+    border: 1px solid #2e3339;
+}
+.save-btn:hover{
+    border: 1px solid white;
+}
+.close-btn{
+    margin-top:10px;
+    width: 100%;
+}
+.navbar{
+    background-color: #161b22;
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.login-btn{
+    padding: 10px 30px;
+    background-color: #238636;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login-btn:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    padding: 5px;
+}
+.add-btn{
+    display:flex ;
+    justify-content: center;
+    margin: 10px;
+}
+.add-btn button{
+    padding: 10px 30px;
+    background-color: inherit;
+    border: 2px solid #238636;
+    color: #238636;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.add-btn button:hover{
+    color: white;
+    border: 2px solid white;
+}
+#libary-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book-card{
+    width: 300px;
+    height: 300px;
+    background-color: #0d1117;
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.card-author{
+    font-style: italic;
+    text-align: end;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.card-read-btn{
+    margin-bottom: 5px;
+    background-color: #b1bac4;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 10px;
+}
+.card-remove-btn{
+    background-color: #238636;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
